@@ -50,6 +50,7 @@ public class PetApiActions extends UIInteractions {
                 .when()
                 .get("/{id}")
                 .then()
+                .log().all() // Log the response for debugging
                 .statusCode(200); // Ensure the request was successful
     }
 
