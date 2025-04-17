@@ -1,8 +1,9 @@
-package starter.petstore;
+package starter.acceptancetests;
 
 import net.serenitybdd.junit5.SerenityJUnit5Extension;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import starter.petstore.PetApiActions;
 
 @ExtendWith(SerenityJUnit5Extension.class)
 public class WhenFetchingAlreadyAvailablePet {
