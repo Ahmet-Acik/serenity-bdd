@@ -40,4 +40,5 @@ class WhenSearchingForTerms {
                 Ensure.that(TheWebPage.title()).containsIgnoringCase("green")
         );
     }
+
 }
